@@ -90,4 +90,10 @@ abstract class AppStyles {
       fontWeight: FontWeight.w600,
     );
   }
+
+
+  void getResponsiveFontSize({required double fontSize}){
+
+  }
+  
 }
