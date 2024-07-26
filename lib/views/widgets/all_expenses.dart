@@ -7,13 +7,11 @@ class AllExpenses extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: 30.0),
-      child: Container(
-        padding: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
-            color: Colors.white, borderRadius: BorderRadius.circular(12)),
-        child: const Column(
+    return const Padding(
+      padding: EdgeInsets.only(top: 30.0),
+      child: CustomBackGroundContainer(
+        padding: 20.0,
+        child: Column(
           children: [
             AllExpensesHeader(),
             SizedBox(height: 16),
@@ -21,6 +19,27 @@ class AllExpenses extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+class CustomBackGroundContainer extends StatelessWidget {
+  const CustomBackGroundContainer({
+    super.key,
+    required this.child,
+    required this.padding,
+  });
+
+  final Widget child;
+  final double padding;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(padding),
+      decoration: BoxDecoration(
+          color: Colors.white, borderRadius: BorderRadius.circular(12)),
+      child: child,
     );
   }
 }
