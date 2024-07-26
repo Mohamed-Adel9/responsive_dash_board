@@ -29,16 +29,31 @@ class AllExpensesListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      scrollDirection: Axis.vertical,
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      itemCount: items.length,
-      itemBuilder: (context, index) {
-        return AllExpensesCart(
-          allExpensesCartModel: items[index],
+    return Row(
+      children: items.asMap().entries.map((e) {
+        var index = e.key;
+        var item = e.value;
+        
+        return Expanded(
+          child: Padding(
+            padding: index == 1 ? const EdgeInsets.symmetric(horizontal: 12.0): EdgeInsets.zero,
+            child: AllExpensesCart(
+              allExpensesCartModel: item,
+            ),
+          ),
         );
-      },
+      },).toList(),
     );
+    // return ListView.builder(
+    //   scrollDirection: Axis.vertical,
+    //   shrinkWrap: true,
+    //   physics: const NeverScrollableScrollPhysics(),
+    //   itemCount: items.length,
+    //   itemBuilder: (context, index) {
+    //     return AllExpensesCart(
+    //       allExpensesCartModel: items[index],
+    //     );
+    //   },
+    // );
   }
 }
