@@ -8,7 +8,7 @@ class AllExpenses extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 40.0),
+      padding: const EdgeInsets.only(top: 30.0),
       child: Container(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
