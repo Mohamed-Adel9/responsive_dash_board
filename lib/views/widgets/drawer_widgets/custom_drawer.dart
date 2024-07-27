@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:responsive_dash_board/generated/assets.dart';
 import 'package:responsive_dash_board/models/drawer_item_model.dart';
 import 'package:responsive_dash_board/models/user_info_model.dart';
-import 'package:responsive_dash_board/views/widgets/drawer_item_cart.dart';
-import 'package:responsive_dash_board/views/widgets/drawer_item_list_view.dart';
-import 'package:responsive_dash_board/views/widgets/user_info_list_tile.dart';
+import 'package:responsive_dash_board/views/widgets/drawer_widgets/drawer_item_cart.dart';
+import 'package:responsive_dash_board/views/widgets/drawer_widgets/drawer_item_list_view.dart';
+import 'package:responsive_dash_board/views/widgets/drawer_widgets/user_info_list_tile.dart';
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_dash_board/models/all_expenses_cart_model.dart';
-import 'package:responsive_dash_board/views/widgets/in_active_all_expenses_cart_and_active.dart';
+import 'package:responsive_dash_board/views/widgets/all_expences_widgets/in_active_all_expenses_cart_and_active.dart';
 
 class AllExpensesCart extends StatelessWidget {
   const AllExpensesCart(

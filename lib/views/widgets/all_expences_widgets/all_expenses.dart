@@ -1,23 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_dash_board/views/widgets/all_expenses_header.dart';
-import 'package:responsive_dash_board/views/widgets/all_expenses_list_view.dart';
+import 'package:responsive_dash_board/views/widgets/all_expences_widgets/all_expenses_header.dart';
+import 'package:responsive_dash_board/views/widgets/all_expences_widgets/all_expenses_list_view.dart';
 
 class AllExpenses extends StatelessWidget {
   const AllExpenses({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.only(top: 30.0),
-      child: CustomBackGroundContainer(
-        padding: 20.0,
-        child: Column(
-          children: [
-            AllExpensesHeader(),
-            SizedBox(height: 16),
-            AllExpensesListView()
-          ],
-        ),
+    return const CustomBackGroundContainer(
+      padding: 20.0,
+      child: Column(
+        children: [
+          AllExpensesHeader(),
+          SizedBox(height: 16),
+          AllExpensesListView(),
+        ],
       ),
     );
   }
