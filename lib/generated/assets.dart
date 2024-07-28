@@ -10,7 +10,7 @@ class Assets {
   static const String imagesAvatar1 = 'assets/images/avatar1.svg';
   static const String imagesAvatar2 = 'assets/images/avatar2.svg';
   static const String imagesBalance = 'assets/images/balance.svg';
-  static const String imagesCardBg = 'assets/images/card_bg.svg';
+  static const String imagesCardBg = 'assets/images/card_bg.png';
   static const String imagesDashboard = 'assets/images/dashboard.svg';
   static const String imagesExpenses = 'assets/images/expenses.svg';
   static const String imagesIncome = 'assets/images/income.svg';
