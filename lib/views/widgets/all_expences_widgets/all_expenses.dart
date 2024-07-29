@@ -11,7 +11,7 @@ class AllExpenses extends StatelessWidget {
       padding: 20.0,
       child: Column(
         children: [
-          AllExpensesHeader(),
+          CustomHeaderWithDropdown(title: 'All Expenses',),
           SizedBox(height: 16),
           AllExpensesListView(),
         ],
