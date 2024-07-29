@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_dash_board/utils/app_styles.dart';
-import 'package:responsive_dash_board/views/widgets/my_card_and_income/dots_indicator.dart';
-import 'package:responsive_dash_board/views/widgets/my_card_and_income/my_card_page_view.dart';
+import 'package:responsive_dash_board/views/widgets/my_card_and_transaction_history/dots_indicator.dart';
+import 'package:responsive_dash_board/views/widgets/my_card_and_transaction_history/my_card_page_view.dart';
 
 class MyCardsSection extends StatefulWidget {
   const MyCardsSection({

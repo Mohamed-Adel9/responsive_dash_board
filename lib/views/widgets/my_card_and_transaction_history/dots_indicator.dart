@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_dash_board/views/widgets/my_card_and_income/custom_dot_indicator.dart';
+import 'package:responsive_dash_board/views/widgets/my_card_and_transaction_history/custom_dot_indicator.dart';
 
 class DotsIndicator extends StatelessWidget {
   const DotsIndicator({super.key, required this.currentPageIndex});

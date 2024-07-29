@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_dash_board/views/widgets/all_expences_widgets/all_expenses.dart';
-import 'package:responsive_dash_board/views/widgets/my_card_and_income/my_cards_section.dart';
-import 'package:responsive_dash_board/views/widgets/my_card_and_income/transaction_history.dart';
+import 'package:responsive_dash_board/views/widgets/my_card_and_transaction_history/my_cards_section.dart';
+import 'package:responsive_dash_board/views/widgets/my_card_and_transaction_history/transaction_history.dart';
 
-class MyCardAndIncome extends StatelessWidget {
-  const MyCardAndIncome({super.key});
+class MyCardAndTransactionHistory extends StatelessWidget {
+  const MyCardAndTransactionHistory({super.key});
 
   @override
   Widget build(BuildContext context) {

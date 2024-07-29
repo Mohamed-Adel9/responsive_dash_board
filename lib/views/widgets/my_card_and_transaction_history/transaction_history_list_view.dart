@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_dash_board/models/transaction_history_cart_model.dart';
-import 'package:responsive_dash_board/views/widgets/my_card_and_income/transaction_history_card.dart';
+import 'package:responsive_dash_board/views/widgets/my_card_and_transaction_history/transaction_history_card.dart';
 
 class TransactionHistoryListView extends StatelessWidget {
   const TransactionHistoryListView({super.key});
