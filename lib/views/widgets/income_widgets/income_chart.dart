@@ -13,8 +13,11 @@ class _IncomeChartState extends State<IncomeChart> {
 
   @override
   Widget build(BuildContext context) {
-    return PieChart(
-      getPieChartDara(),
+    return AspectRatio(
+      aspectRatio: 1,
+      child: PieChart(
+        getPieChartDara(),
+      ),
     );
   }
 

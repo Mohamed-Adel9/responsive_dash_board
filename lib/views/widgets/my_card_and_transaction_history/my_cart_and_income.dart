@@ -10,7 +10,7 @@ class MyCartAndIncome extends StatelessWidget {
     return const Column(
       children: [
         SizedBox(height: 40,),
-        Expanded(child: MyCardAndTransactionHistory()),
+        Expanded(flex: 3,child: MyCardAndTransactionHistory()),
         SizedBox(height: 24,),
         Expanded(child: Income()),
       ],
