@@ -13,16 +13,16 @@ class Income extends StatelessWidget {
     return  const CustomBackGroundContainer(
       padding: 24,
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CustomHeaderWithDropdown(title: "Income",),
-          Expanded(
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(child: IncomeChart()),
-                Expanded(child: IncomeItemListView()),
-              ],
-            ),
+          Row(
+
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(child: IncomeChart()),
+              Expanded(child: IncomeItemListView()),
+            ],
           )
         ],
       ),
